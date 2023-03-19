@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ExternalDataProcessor uuid="117039f1-89c0-45b2-849f-47efed8d5618">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
+				<xr:ObjectId>125cfb18-4399-45ad-8dc3-9c33cbdea200</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:GeneratedType name="ExternalDataProcessorObject.FAST8DatabaseTablesAnalitics" category="Object">
+				<xr:TypeId>ca7006e8-3a7e-4226-b135-16c0d8dd79a6</xr:TypeId>
+				<xr:ValueId>791a76ec-fc29-46c1-b803-70381c0fe492</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>FAST8DatabaseTablesAnalitics</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>FAST8 Database tables analitics</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>2023_03_19</Comment>
+			<DefaultForm>ExternalDataProcessor.FAST8DatabaseTablesAnalitics.Form.fast8ОсновнаяФорма</DefaultForm>
+			<AuxiliaryForm/>
+		</Properties>
+		<ChildObjects>
+			<Form>fast8ИнформацияОбОбъектеМетаданных</Form>
+			<Form>fast8ИнформацияОРазмереТаблиц</Form>
+			<Form>fast8ИнформацияОСтруктуреХранения</Form>
+			<Form>fast8ОсновнаяФорма</Form>
+			<Form>fast8СтатистикаПоПериодам</Form>
+			<Form>fast8ИнформацияОРазмереФайловБСП</Form>
+			<Form>fast8ОПрограмме</Form>
+			<Template>fast8МакетХранение</Template>
+			<Template>fast8МакетРазмерФайловБСП</Template>
+		</ChildObjects>
+	</ExternalDataProcessor>
+</MetaDataObject>
