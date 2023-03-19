@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -326,6 +326,58 @@
 									<ContextMenu name="fast8ПользователиПроведениеКонтекстноеМеню" id="354"/>
 									<ExtendedTooltip name="fast8ПользователиПроведениеРасширеннаяПодсказка" id="355"/>
 								</CheckBoxField>
+							</ChildItems>
+						</Table>
+						<Table name="fast8ПрофилиГруппДоступа" id="430">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>fast8ПрофилиГруппДоступа</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="fast8ПрофилиГруппДоступаКонтекстноеМеню" id="431"/>
+							<AutoCommandBar name="fast8ПрофилиГруппДоступаКоманднаяПанель" id="432">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="fast8ПрофилиГруппДоступаРасширеннаяПодсказка" id="433"/>
+							<SearchStringAddition name="fast8ПрофилиГруппДоступаСтрокаПоиска" id="434">
+								<AdditionSource>
+									<Item>fast8ПрофилиГруппДоступа</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ПрофилиГруппДоступаСтрокаПоискаКонтекстноеМеню" id="435"/>
+								<ExtendedTooltip name="fast8ПрофилиГруппДоступаСтрокаПоискаРасширеннаяПодсказка" id="436"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="fast8ПрофилиГруппДоступаСостояниеПросмотра" id="437">
+								<AdditionSource>
+									<Item>fast8ПрофилиГруппДоступа</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ПрофилиГруппДоступаСостояниеПросмотраКонтекстноеМеню" id="438"/>
+								<ExtendedTooltip name="fast8ПрофилиГруппДоступаСостояниеПросмотраРасширеннаяПодсказка" id="439"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="fast8ПрофилиГруппДоступаУправлениеПоиском" id="440">
+								<AdditionSource>
+									<Item>fast8ПрофилиГруппДоступа</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ПрофилиГруппДоступаУправлениеПоискомКонтекстноеМеню" id="441"/>
+								<ExtendedTooltip name="fast8ПрофилиГруппДоступаУправлениеПоискомРасширеннаяПодсказка" id="442"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">fast8ПрофилиГруппДоступаВыбор</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="fast8ПрофилиГруппДоступаПрофиль" id="443">
+									<DataPath>fast8ПрофилиГруппДоступа.Профиль</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="fast8ПрофилиГруппДоступаПрофильКонтекстноеМеню" id="444"/>
+									<ExtendedTooltip name="fast8ПрофилиГруппДоступаПрофильРасширеннаяПодсказка" id="445"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -1385,6 +1437,41 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="fast8ПрофилиГруппДоступа" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профили групп доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Профиль" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8ЕстьСправочникПрофилиГруппДоступа" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть справочник профили групп доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
