@@ -614,6 +614,7 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>fast8ПодпискиНаСобытия</DataPath>
+							<RowPictureDataPath>fast8ПодпискиНаСобытия.Картинка</RowPictureDataPath>
 							<RowsPicture>
 								<xr:Ref>StdPicture.Attribute</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -859,7 +860,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
+							<v8:Length>150</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -889,7 +890,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
+							<v8:Length>200</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -1456,7 +1457,11 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>

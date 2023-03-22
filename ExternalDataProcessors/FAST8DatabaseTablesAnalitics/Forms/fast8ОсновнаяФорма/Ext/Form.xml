@@ -2,55 +2,72 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
-		<ChildItems>
-			<Button name="Формаfast8ПровестиАнализ" id="3">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.fast8ПровестиАнализ</CommandName>
-				<BackColor>web:LightGreen</BackColor>
-				<ExtendedTooltip name="Формаfast8ПровестиАнализРасширеннаяПодсказка" id="4"/>
-			</Button>
-			<Button name="Формаfast8РассчитатьРазмер" id="72">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.fast8РассчитатьРазмер</CommandName>
-				<ExtendedTooltip name="Формаfast8РассчитатьРазмерРасширеннаяПодсказка" id="73"/>
-			</Button>
-			<Button name="ФормаСортироватьСписокПоВозрастанию" id="42">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.fast8Результат.StandardCommand.SortListAsc</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="43"/>
-			</Button>
-			<Button name="ФормаСортироватьСписокПоУбыванию" id="44">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.fast8Результат.StandardCommand.SortListDesc</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="45"/>
-			</Button>
-			<Button name="ФормаВывестиСписок" id="40">
-				<Type>CommandBarButton</Type>
-				<Representation>PictureAndText</Representation>
-				<CommandName>Form.Item.fast8Результат.StandardCommand.OutputList</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаВывестиСписокРасширеннаяПодсказка" id="41"/>
-			</Button>
-			<Button name="Формаfast8ИнформацияОРазмереТаблиц" id="46">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.fast8ИнформацияОРазмереТаблиц</CommandName>
-				<ExtendedTooltip name="Формаfast8ИнформацияОРазмереТаблицРасширеннаяПодсказка" id="47"/>
-			</Button>
-			<Button name="Формаfast8ОПрограмме" id="76">
-				<Type>CommandBarButton</Type>
-				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-				<CommandName>Form.Command.fast8ОПрограмме</CommandName>
-				<ExtendedTooltip name="Формаfast8ОПрограммеРасширеннаяПодсказка" id="77"/>
-			</Button>
-		</ChildItems>
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="80">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<CommandBar name="ГруппаКоманднаяПанель" id="78">
+					<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<Button name="Формаfast8ПровестиАнализ" id="3">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.fast8ПровестиАнализ</CommandName>
+							<BackColor>web:LightGreen</BackColor>
+							<ExtendedTooltip name="Формаfast8ПровестиАнализРасширеннаяПодсказка" id="4"/>
+						</Button>
+						<Button name="ФормаСортироватьСписокПоВозрастанию" id="42">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Item.fast8Результат.StandardCommand.SortListAsc</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="43"/>
+						</Button>
+						<Button name="ФормаСортироватьСписокПоУбыванию" id="44">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Item.fast8Результат.StandardCommand.SortListDesc</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="45"/>
+						</Button>
+						<Button name="ФормаВывестиСписок" id="40">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>Form.Item.fast8Результат.StandardCommand.OutputList</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаВывестиСписокРасширеннаяПодсказка" id="41"/>
+						</Button>
+						<Button name="Формаfast8ИнформацияОРазмереТаблиц" id="46">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.fast8ИнформацияОРазмереТаблиц</CommandName>
+							<ExtendedTooltip name="Формаfast8ИнформацияОРазмереТаблицРасширеннаяПодсказка" id="47"/>
+						</Button>
+						<Button name="Формаfast8РассчитатьРазмер" id="72">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.fast8РассчитатьРазмер</CommandName>
+							<ExtendedTooltip name="Формаfast8РассчитатьРазмерРасширеннаяПодсказка" id="73"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<LabelDecoration name="ДекорацияНаполнитель" id="82">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ДекорацияНаполнительКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="ДекорацияНаполнительРасширеннаяПодсказка" id="84"/>
+				</LabelDecoration>
+				<Button name="Формаfast8ОПрограмме" id="76">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.fast8ОПрограмме</CommandName>
+					<ExtendedTooltip name="Формаfast8ОПрограммеРасширеннаяПодсказка" id="77"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="fast8Результат" id="8">
 			<Representation>Tree</Representation>
 			<ChangeRowSet>false</ChangeRowSet>
@@ -175,17 +192,18 @@
 					<ContextMenu name="fast8РезультатКоличествоКонтекстноеМеню" id="28"/>
 					<ExtendedTooltip name="fast8РезультатКоличествоРасширеннаяПодсказка" id="29"/>
 				</InputField>
-				<InputField name="fast8РезультатПроцентПомеченныхНаУдаление" id="59">
+				<InputField name="fast8РезультатПомеченныхНаУдаление" id="59">
 					<DataPath>fast8Результат.ПомеченныхНаУдаление</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<TextColor>style:FieldSelectionBackColor</TextColor>
-					<ContextMenu name="fast8РезультатПроцентПомеченныхНаУдалениеКонтекстноеМеню" id="60"/>
-					<ExtendedTooltip name="fast8РезультатПроцентПомеченныхНаУдалениеРасширеннаяПодсказка" id="61"/>
+					<ContextMenu name="fast8РезультатПомеченныхНаУдалениеКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="fast8РезультатПомеченныхНаУдалениеРасширеннаяПодсказка" id="61"/>
 				</InputField>
 				<InputField name="fast8РезультатРазмер" id="67">
 					<DataPath>fast8Результат.Размер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<TextColor>style:FieldSelectionBackColor</TextColor>
 					<ContextMenu name="fast8РезультатРазмерКонтекстноеМеню" id="68"/>
 					<ExtendedTooltip name="fast8РезультатРазмерРасширеннаяПодсказка" id="69"/>
 				</InputField>
@@ -414,10 +432,13 @@
 						<dcsset:field>fast8РезультатКоличество</dcsset:field>
 					</dcsset:item>
 					<dcsset:item>
-						<dcsset:field>fast8РезультатПроцентПомеченныхНаУдаление</dcsset:field>
+						<dcsset:field>fast8РезультатПомеченныхНаУдаление</dcsset:field>
 					</dcsset:item>
 					<dcsset:item>
 						<dcsset:field>fast8РезультатПринадлежность</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>fast8РезультатРазмер</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -452,10 +473,13 @@
 						<dcsset:field>fast8РезультатКоличество</dcsset:field>
 					</dcsset:item>
 					<dcsset:item>
-						<dcsset:field>fast8РезультатПроцентПомеченныхНаУдаление</dcsset:field>
+						<dcsset:field>fast8РезультатПомеченныхНаУдаление</dcsset:field>
 					</dcsset:item>
 					<dcsset:item>
 						<dcsset:field>fast8РезультатПринадлежность</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>fast8РезультатРазмер</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
