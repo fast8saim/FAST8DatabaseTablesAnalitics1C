@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<ExternalDataProcessor uuid="218dc1de-fa59-43d6-9f50-e8fd5fcdaedd">
+	<ExternalDataProcessor uuid="6948c78b-893b-467c-8d22-395b85f4486b">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>b700589c-6851-489d-ac01-2af8a88fff33</xr:ObjectId>
+				<xr:ObjectId>2fc3b78d-525e-45db-8dba-791dec40534c</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:GeneratedType name="ExternalDataProcessorObject.FAST8DatabaseTablesAnalitics" category="Object">
-				<xr:TypeId>bb592179-9cba-43a0-93f5-f915f23f89a5</xr:TypeId>
-				<xr:ValueId>973c107c-2d20-45b3-ba69-3813644e1611</xr:ValueId>
+				<xr:TypeId>8b59d564-2ab5-433e-97be-293b8a5f7c01</xr:TypeId>
+				<xr:ValueId>b73f08c4-ae37-46f8-9b7a-46841172d01f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -19,7 +19,7 @@
 					<v8:content>FAST8 Database tables analitics</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>2023_03_22</Comment>
+			<Comment>2023_03_25</Comment>
 			<DefaultForm>ExternalDataProcessor.FAST8DatabaseTablesAnalitics.Form.fast8ОсновнаяФорма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
